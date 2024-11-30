@@ -1,0 +1,33 @@
+<#
+.SYNOPSIS
+    Bulk update attributes for AD users.
+
+.DESCRIPTION
+    This script updates specified attributes for multiple Active Directory users in bulk.
+
+.NOTES
+    Script Name    : 
+    Version        : 0.1
+    Author         : [Your Name]
+    Approved By    : [Approver's Name]
+    Date           : [Date]
+    Purpose        : 
+
+.PREREQUISITES
+    - Active Directory PowerShell module installed.
+    - Proper permissions to modify user attributes.
+    - Input file with required details (e.g., CSV format).
+
+.PARAMETERS
+    [Optional] Define any script parameters here if applicable.
+
+.EXAMPLE
+    Provide an example of how to use the script.
+
+#>
+
+# Start of Script
+
+
+
+# End of Script
