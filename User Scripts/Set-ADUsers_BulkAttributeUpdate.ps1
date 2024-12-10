@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Update any attribute for Active Directory Users in Bulk
+    Update specific attribute for Active Directory Users in Bulk
 
 .DESCRIPTION
     This script updates specified attributes for multiple Active Directory users in bulk.
