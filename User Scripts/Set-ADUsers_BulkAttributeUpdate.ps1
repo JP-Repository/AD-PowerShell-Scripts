@@ -24,10 +24,15 @@
     None
 
 .EXAMPLE
-    - Create a new Excel file and type SamAccountName in Cell A1, Type "AttributeValue" in Cell B1,
-    - Add the list of users to whom the attribute needs to be updated,
-    - Run the Script in Administrator Mode,
-    - It can be any attribute that you want to update, Description, Office, DisplayName or any new custom attribute.
+    # Create a new Excel file and type SamAccountName in Cell A1, Type "AttributeValue" in Cell B1,
+    # Add the list of users to whom the attribute needs to be updated,
+    # Run the Script in Administrator Mode,
+    # Example content:
+    # Create a new Excel file and type SamAccountName in Cell A1, Type "AttributeValue" in Cell B1,
+    # SamAccountName,AttributeValue
+    # jdoe,Developer
+    # asmith,Analyst
+    # It can be any attribute that you want to update, Description, Office, DisplayName or any new custom attribute.
 
 #>
 
