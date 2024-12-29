@@ -30,7 +30,7 @@
 # Start of Script
 
 param (
-    [string]$GPOName = "CABOT GLOBAL - PROD - Citrix Workspace 2402 Client Policy",
+    [string]$GPOName = "Enter Group Policy Name",
     [string]$OUFilePath = "C:\Temp\OUs.txt",
     [string]$LogFilePath = "C:\Temp\GPO_Link_Log_$(Get-Date -Format 'yyyy-MM-dd_HH-mm-ss').txt"
 )
