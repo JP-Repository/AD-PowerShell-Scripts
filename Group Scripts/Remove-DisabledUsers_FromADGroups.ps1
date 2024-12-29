@@ -38,8 +38,8 @@ $disabledUsers = Get-ADUser -Filter {
 Example 2: Excluding Users from Specific Organizational Units (OUs)
 
 # Define the DN (Distinguished Name) of the OUs to exclude
-$excludedOU1 = "OU=Resources,DC=cabot,DC=cabot-corp,DC=com"
-$excludedOU2 = "OU=SharedMailboxes,DC=cabot,DC=cabot-corp,DC=com"
+$excludedOU1 = "OU=Resources,DC=contoso,DC=contoso-corp,DC=com"
+$excludedOU2 = "OU=SharedMailboxes,DC=contoso,DC=contoso-corp,DC=com"
 
 # Get all disabled users, excluding users in certain OUs
 $disabledUsers = Get-ADUser -Filter {
@@ -102,8 +102,8 @@ Select-Object SamAccountName, MemberOf
 Import-Module ActiveDirectory
 
 # Define the distinguished names (DN) of the OUs to exclude
-$excludedOU1 = "OU=Resources,DC=cabot,DC=cabot-corp,DC=com"
-$excludedOU2 = "OU=SharedMailboxes,DC=cabot,DC=cabot-corp,DC=com"
+$excludedOU1 = "OU=Resources,DC=contoso,DC=contoso-corp,DC=com"
+$excludedOU2 = "OU=SharedMailboxes,DC=contoso,DC=contoso-corp,DC=com"
 
 # Initialize an array to store the results
 $results = @()
