@@ -8,22 +8,27 @@ Welcome to the Active Directory PowerShell Scripts Repository, a collection of m
 Scripts for managing and automating tasks related to computer objects in Active Directory.
 
 Examples: Bulk creation, lifecycle management, cleanup, and reporting.
+
 2. Group Policy Scripts
 Streamline your Group Policy management with these advanced scripts.
 
 Examples: Linking GPOs, reporting applied policies, and backup/restore of GPO settings.
+
 3. Group Scripts
 Effortlessly manage security and distribution groups in Active Directory.
 
 Examples: Bulk group creation, membership management, and permission assignments.
+
 4. OU Scripts
 Organizational Unit (OU) management made easier with these targeted scripts.
 
 Examples: Creating OUs, moving objects, and setting permissions.
+
 5. Script Template
 Prebuilt templates to help you get started with creating your own scripts.
 
 Includes: Common functions, error handling, and logging mechanisms.
+
 6. User Scripts
 Automate user lifecycle management with these powerful scripts.
 
