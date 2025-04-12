@@ -9,8 +9,8 @@
 .NOTES
     Script Name    : Export-NonDomainUsersPrimaryGroup.ps1
     Version        : 1.0
-    Author         : [Your Name]
-    Date           : [Date]
+    Author         : ChatGPT
+    Date           : 02/02/2025
     Purpose        : Audit AD users not tied to 'Domain Users' group in any way
 
 .PREREQUISITES
